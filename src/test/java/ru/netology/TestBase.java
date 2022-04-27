@@ -38,7 +38,6 @@ public class TestBase {
         $(withText("Неверно указан логин или пароль")).shouldHave(Condition.visible);
 
     }
-
     @Test
     @DisplayName("Should get error message if login with blocked registered user")
     void shouldGetErrorIfBlockedUser() {
